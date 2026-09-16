@@ -1464,3 +1464,64 @@ footer a {
     /* จัดตำแหน่งรูป */
     object-position: center;
 }
+/* =========================
+   ABOUT PROFILE PHOTO
+========================= */
+
+.about-photo {
+    background: white;
+    padding: 15px;
+    text-align: center;
+
+    box-shadow:
+        0 15px 35px rgba(142, 99, 117, .12);
+
+    transform: rotate(-3deg);
+
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+
+/* กรอบรูป */
+
+.about-profile-photo {
+    width: 100%;
+    height: 400px;
+
+    overflow: hidden;
+
+    background: #f8dce9;
+
+    border-radius: 5px;
+}
+
+
+/* รูปภาพ */
+
+.about-profile-photo img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+    object-position: center;
+}
+
+
+/* ข้อความใต้รูป */
+
+.about-photo > span {
+    display: block;
+
+    font-family: "Itim", cursive;
+
+    font-size: 22px;
+
+    color: #76556d;
+
+    margin-top: 10px;
+}
