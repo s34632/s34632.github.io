@@ -1501,3 +1501,17 @@ footer a {
     color: #76556d;
     margin-top: 8px;
 }
+.project-img {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    background: #f8dce9;
+}
+
+.project-img img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
