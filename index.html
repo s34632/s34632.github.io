@@ -1,44 +1,312 @@
 <!DOCTYPE html>
 <html lang="th">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ณิชาภัทร ยอดมงคล</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #ffc0cb;
-            color: #333;
-            text-align: center;
-            padding: 50px;
-        }
-        .card {
-            background: white;
-            padding: 30px;
-            border-radius: 50px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            max-width: 500px;
-            margin: 0 auto;
-        }
-        h1 { color: #2c3e50; }
-        p { font-size: 18px; line-height: 1.6; }
-    </style>
+
+    <title>My Portfolio ♡</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Mitr:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-    <div class="card">
-        <h1>ยินดีต้อนรับสู่โปรไฟล์ของฉัน 👋</h1>
-        <p>สวัสดีค่ะ! ดิฉันชื่อ <strong>ณิชาภัทร (Nichapat)</strong></p>
-        <p>ขณะนี้กำลังศึกษา/สนใจด้าน มหาวิทยาลัย มอบูรพา คณะ บริหารธุรกิจ สาขา ธุรกิจระหว่างประเทศ 
-        <p>นี่คือเว็บไซต์แรกของดิฉันที่โฮสต์บน GitHub Pages!</p>
-        
-    <a href="portfolio.html" style="display:inline-block;
-        background:#3498db;
-        color:white; 
-        padding:10px 20px; 
-        text-decoration:none; 
-        border-radius:5px; 
-        margin-top:15px;">👉 ดูแฟ้มสะสมงานของดิฉัน</a>
+    <!-- Navigation -->
+    <header class="navbar">
+
+        <a href="index.html" class="logo">
+            Mini<span>Portfolio</span> ♡
+        </a>
+
+        <button class="menu-toggle">
+            ☰
+        </button>
+
+        <nav class="nav-links">
+
+            <a href="index.html" class="active">
+                Home
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="portfolio.html">
+                Portfolio
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero section">
+
+        <div class="hero-text">
+
+            <p class="eyebrow">
+                WELCOME TO MY LITTLE WORLD ✿
+            </p>
+
+            <h1>
+                Hi, I'm
+                <span>Your Name</span>
+                ♡
+            </h1>
+
+            <p class="hero-desc">
+
+                นักเรียน / นักศึกษา / Designer
+                ที่ชอบสร้างเว็บไซต์น่ารัก ๆ
+                และเปลี่ยนไอเดียให้กลายเป็นผลงานจริง
+
+            </p>
+
+            <div class="buttons">
+
+                <a href="portfolio.html" class="btn primary">
+                    ดูผลงานของฉัน →
+                </a>
+
+                <a href="about.html" class="btn secondary">
+                    เกี่ยวกับฉัน
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-card">
+
+            <div class="polaroid">
+
+                <div class="profile-placeholder">
+                    ♡
+                </div>
+
+                <p>
+                    Your Photo
+                </p>
+
+                <small>
+                    nice to meet you!
+                </small>
+
+            </div>
+
+            <span class="sticker star">
+                ✦
+            </span>
+
+            <span class="sticker flower">
+                ✿
+            </span>
+
+        </div>
+
+    </section>
+
+
+    <!-- INTRO -->
+    <section class="intro section">
+
+        <div class="section-title">
+
+            <span>✿</span>
+
+            <h2>
+                Welcome to my portfolio
+            </h2>
+
+            <span>✿</span>
+
+        </div>
+
+        <p>
+
+            ที่นี่คือพื้นที่เล็ก ๆ สำหรับรวบรวมตัวตน
+            ความสนใจ และผลงานที่ฉันตั้งใจสร้างขึ้นมา
+
+        </p>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section class="featured section">
+
+        <div class="section-heading">
+
+            <div>
+
+                <p class="eyebrow">
+                    A FEW OF MY WORKS
+                </p>
+
+                <h2>
+                    My Favorite Projects ♡
+                </h2>
+
+            </div>
+
+            <a href="portfolio.html" class="text-link">
+                ดูทั้งหมด →
+            </a>
+
+        </div>
+
+
+        <div class="project-grid">
+
+
+            <!-- Project 1 -->
+            <a href="project1.html" class="project-card">
+
+                <div class="project-img img-one">
+                    01
+                </div>
+
+                <div class="project-info">
+
+                    <span>
+                        Web Design
+                    </span>
+
+                    <h3>
+                        Sweet Café Website
+                    </h3>
+
+                    <p>
+                        เว็บไซต์คาเฟ่สไตล์พาสเทล
+                    </p>
+
+                </div>
+
+            </a>
+
+
+            <!-- Project 2 -->
+            <a href="project2.html" class="project-card">
+
+                <div class="project-img img-two">
+                    02
+                </div>
+
+                <div class="project-info">
+
+                    <span>
+                        UI / UX
+                    </span>
+
+                    <h3>
+                        Study Planner
+                    </h3>
+
+                    <p>
+                        ออกแบบหน้าจอวางแผนการเรียน
+                    </p>
+
+                </div>
+
+            </a>
+
+
+            <!-- Project 3 -->
+            <a href="project3.html" class="project-card">
+
+                <div class="project-img img-three">
+                    03
+                </div>
+
+                <div class="project-info">
+
+                    <span>
+                        Branding
+                    </span>
+
+                    <h3>
+                        Little Flower Shop
+                    </h3>
+
+                    <p>
+                        ออกแบบแบรนด์ร้านดอกไม้
+                    </p>
+
+                </div>
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- QUOTE -->
+    <section class="quote section">
+
+        <div class="quote-box">
+
+            <div class="quote-flower">
+                🌷
+            </div>
+
+            <div>
+
+                <p>
+                    “Every little idea can become something beautiful.”
+                </p>
+
+                <small>
+                    — my portfolio diary ♡
+                </small>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            Made with ♡ by Your Name
+        </p>
+
+        <div>
+
+            <a href="index.html">
+                Home
+            </a>
+
+            ·
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>
