@@ -1461,3 +1461,33 @@ footer a {
     }
 
 }
+/* =========================
+   PROFILE PHOTO
+========================= */
+
+.profile-photo {
+
+    width: 100%;
+
+    height: 300px;
+
+    overflow: hidden;
+
+    background: #f8dce9;
+
+}
+
+
+.profile-photo img {
+
+    width: 100%;
+
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+    object-position: center;
+
+}
