@@ -1,220 +1,97 @@
-```html
-<!DOCTYPE html>
-<html lang="th">
+```css
+/* ================= CONTACT PAGE ================= */
 
-<head>
+.contact-layout {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px 80px;
+    box-sizing: border-box;
+}
 
-    <meta charset="UTF-8">
+.contact-card {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
 
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
 
-    <title>Contact Me ♡</title>
+/* ไอคอนด้านบน */
 
-    <link rel="preconnect"
-        href="https://fonts.googleapis.com">
+.contact-icon {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
 
-    <link rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Mitr:wght@300;400;500&display=swap"
-        rel="stylesheet">
+/* ข้อความ */
 
-    <link rel="stylesheet"
-        href="css/style.css">
+.contact-card h2 {
+    margin-bottom: 10px;
+}
 
-</head>
+.contact-card > p {
+    margin-bottom: 25px;
+}
 
 
-<body>
+/* ช่องทางการติดต่อ */
 
+.contact-link {
+    width: 100%;
+    min-height: 70px;
+    margin: 12px 0;
 
-    <!-- NAVBAR -->
+    display: flex;
+    align-items: center;
 
-    <header class="navbar">
+    padding: 15px 20px;
+    box-sizing: border-box;
 
-        <a href="index.html" class="logo">
-            Mini<span>Portfolio</span> ♡
-        </a>
+    text-decoration: none;
 
-        <button class="menu-toggle" type="button">
-            ☰
-        </button>
+    border-radius: 18px;
 
-        <nav class="nav-links">
+    transition: transform 0.2s ease,
+                box-shadow 0.2s ease;
+}
 
-            <a href="index.html">
-                Home
-            </a>
 
-            <a href="about.html">
-                About
-            </a>
+/* ไอคอน */
 
-            <a href="portfolio.html">
-                Portfolio
-            </a>
+.contact-link-icon {
+    width: 45px;
+    height: 45px;
 
-            <a href="contact.html" class="active">
-                Contact
-            </a>
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-        </nav>
+    flex-shrink: 0;
 
-    </header>
+    font-size: 24px;
+}
 
 
+/* ข้อความในแต่ละช่อง */
 
-    <!-- MAIN -->
+.contact-text {
+    display: flex;
+    flex-direction: column;
 
-    <main>
+    text-align: left;
 
-        <section class="page-hero">
+    margin-left: 15px;
+}
 
-            <p class="eyebrow">
-                LET'S TALK ♡
-            </p>
+.contact-text strong {
+    font-size: 18px;
+}
 
-            <h1>
-                Contact Me
-            </h1>
-
-            <p>
-                อยากพูดคุยหรือสอบถามอะไร
-                ทักมาได้เลยค่ะ!
-            </p>
-
-        </section>
-
-
-
-        <!-- CONTACT -->
-
-        <section class="contact-layout section">
-
-            <div class="contact-card">
-
-                <div class="contact-icon">
-                    💌
-                </div>
-
-                <h2>
-                    Say Hello!
-                </h2>
-
-                <p>
-                    ช่องทางการติดต่อ
-                </p>
-
-
-                <!-- เบอร์โทร -->
-
-                <a href="tel:0970232633"
-                    class="contact-link">
-
-                    <span class="contact-link-icon">
-                        📞
-                    </span>
-
-                    <span class="contact-text">
-                        <strong>Tell</strong>
-                        <small>0970232633</small>
-                    </span>
-
-                </a>
-
-
-                <!-- Gmail -->
-
-                <a href="mailto:Nichapatyodmongkol@gmail.com"
-                    class="contact-link">
-
-                    <span class="contact-link-icon">
-                        📧
-                    </span>
-
-                    <span class="contact-text">
-                        <strong>Gmail</strong>
-                        <small>Nichapatyodmongkol@gmail.com</small>
-                    </span>
-
-                </a>
-
-
-                <!-- GitHub -->
-
-                <a href="https://github.com/s34632"
-                    class="contact-link"
-                    target="_blank"
-                    rel="noopener noreferrer">
-
-                    <span class="contact-link-icon">
-                        💻
-                    </span>
-
-                    <span class="contact-text">
-                        <strong>GitHub</strong>
-                        <small>github.com/s34632</small>
-                    </span>
-
-                </a>
-
-
-                <!-- Instagram -->
-
-                <a href="https://www.instagram.com/n1chxc_ke"
-                    class="contact-link"
-                    target="_blank"
-                    rel="noopener noreferrer">
-
-                    <span class="contact-link-icon">
-                        📷
-                    </span>
-
-                    <span class="contact-text">
-                        <strong>Instagram</strong>
-                        <small>@n1chxc_ke</small>
-                    </span>
-
-                </a>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-
-    <!-- FOOTER -->
-
-    <footer>
-
-        <p>
-            Made with ♡ by ณิชาภัทร
-        </p>
-
-        <div>
-
-            <a href="index.html">
-                Home
-            </a>
-
-            ·
-
-            <a href="portfolio.html">
-                Portfolio
-            </a>
-
-        </div>
-
-    </footer>
-
-
-    <script src="js/script.js"></script>
-
-</body>
-
-</html>
+.contact-text small {
+    margin-top:
 ```
