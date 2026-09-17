@@ -1,97 +1,67 @@
 ```css
-/* ================= CONTACT PAGE ================= */
+/* ===== FORCE CONTACT CENTER ===== */
 
-.contact-layout {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 20px 80px;
-    box-sizing: border-box;
+main .contact-layout {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+    margin: 0 auto !important;
+    padding: 40px 20px 80px !important;
+
+    box-sizing: border-box !important;
 }
 
-.contact-card {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 40px;
-    box-sizing: border-box;
-    text-align: center;
-}
+main .contact-layout .contact-card {
+    width: 100% !important;
+    max-width: 550px !important;
 
+    margin: 0 auto !important;
 
-/* ไอคอนด้านบน */
-
-.contact-icon {
-    font-size: 55px;
-    margin-bottom: 15px;
-}
-
-
-/* ข้อความ */
-
-.contact-card h2 {
-    margin-bottom: 10px;
-}
-
-.contact-card > p {
-    margin-bottom: 25px;
+    box-sizing: border-box !important;
+    text-align: center !important;
 }
 
 
 /* ช่องทางการติดต่อ */
 
-.contact-link {
-    width: 100%;
-    min-height: 70px;
-    margin: 12px 0;
+main .contact-card .contact-link {
+    width: 100% !important;
 
-    display: flex;
-    align-items: center;
+    display: flex !important;
+    align-items: center !important;
 
-    padding: 15px 20px;
-    box-sizing: border-box;
+    margin: 12px auto !important;
+    box-sizing: border-box !important;
 
-    text-decoration: none;
-
-    border-radius: 18px;
-
-    transition: transform 0.2s ease,
-                box-shadow 0.2s ease;
+    text-align: left !important;
 }
 
 
-/* ไอคอน */
+/* ข้อความ */
 
-.contact-link-icon {
-    width: 45px;
-    height: 45px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    flex-shrink: 0;
-
-    font-size: 24px;
+main .contact-card .contact-text {
+    flex: 1;
+    text-align: left !important;
 }
 
 
-/* ข้อความในแต่ละช่อง */
+/* มือถือ */
 
-.contact-text {
-    display: flex;
-    flex-direction: column;
+@media (max-width: 600px) {
 
-    text-align: left;
+    main .contact-layout {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
 
-    margin-left: 15px;
+    main .contact-layout .contact-card {
+        max-width: 100% !important;
+    }
+
 }
-
-.contact-text strong {
-    font-size: 18px;
-}
-
-.contact-text small {
-    margin-top:
 ```
+
