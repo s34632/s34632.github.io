@@ -164,7 +164,7 @@ a {
 /* SALE TEXT */
 
 .hero::before {
-    content: "SALE 50% OFF     SALE 50% OFF     SALE 50% OFF";
+    content: "CAKE";
 
     position: absolute;
 
