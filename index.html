@@ -2,295 +2,349 @@
 <html lang="th">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>ณิชาภัทร Portfolio ♡</title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Portfolio ♡</title>
+
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Itim&family=Mitr:wght@300;400;500&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+        href="css/style.css">
+
 </head>
+
 
 <body>
 
-    <!-- Navigation -->
-    <header class="navbar">
 
-        <a href="index.html" class="logo">
-            Mini<span>Portfolio</span> ♡
+<header class="navbar">
+
+    <a href="index.html"
+        class="logo">
+
+        Mini<span>Portfolio</span> ♡
+
+    </a>
+
+
+    <button class="menu-toggle">
+        ☰
+    </button>
+
+
+    <nav class="nav-links">
+
+        <a href="index.html">
+            Home
         </a>
 
-        <button class="menu-toggle">
-            ☰
+        <a href="about.html">
+            About
+        </a>
+
+        <a href="portfolio.html"
+            class="active">
+
+            Portfolio
+
+        </a>
+
+        <a href="contact.html">
+            Contact
+        </a>
+
+    </nav>
+
+</header>
+
+
+
+<main>
+
+
+<section class="page-hero">
+
+    <p class="eyebrow">
+        MY LITTLE GALLERY
+    </p>
+
+    <h1>
+        Portfolio ♡
+    </h1>
+
+    <p>
+        กดที่ผลงานเพื่อดูรายละเอียดแต่ละชิ้น
+    </p>
+
+</section>
+
+
+
+<section class="section">
+
+
+    <!-- FILTER -->
+
+    <div class="filter-bar">
+
+        <button
+            class="filter active"
+            data-filter="all">
+
+            All
+
         </button>
 
-        <nav class="nav-links">
-
-            <a href="index.html" class="active">
-                Home
-            </a>
-
-            <a href="about.html">
-                About
-            </a>
-
-            <a href="portfolio.html">
-                Portfolio
-            </a>
-
-            <a href="contact.html">
-                Contact
-            </a>
-
-        </nav>
-
-    </header>
+    </div>
 
 
-    <!-- HERO -->
-    <section class="hero section">
 
-        <div class="hero-text">
+    <!-- PORTFOLIO -->
 
-            <p class="eyebrow">
-                WELCOME TO MY LITTLE WORLD ✿
-            </p>
+    <div class="portfolio-grid">
 
-            <h1>
-                I'm<br>
-                <span>ณิชาภัทร ยอดมงคล</span>
-                ♡
-            </h1>
 
-            <p class="hero-desc">
+        <!-- Project 1 -->
 
-                ดิฉันเป็นนักเรียนชั้นมัธยมศึกษาปีที่6/8
+        <a href="project1.html"
+            class="project-card portfolio-item"
+            data-category="web">
 
-            </p>
+            <div class="project-img img-one">
 
-            <div class="buttons">
-
-                <a href="portfolio.html" class="btn primary">
-                    ดูผลงานของดิฉัน →
-                </a>
-
-                <a href="about.html" class="btn secondary">
-                    เกี่ยวกับดิฉัน
-                </a>
+                <img src="images/project1.jpg"
+                    alt="Sweet Café Website">
 
             </div>
 
-        </div>
+            <div class="project-info">
 
+                <span>
+                    Web Design
+                </span>
 
-        <div class="hero-card">
-
-            <div class="polaroid">
-
-                <div class="profile-photo">
-                    <img src="polaroid.jpg" alt="รูปโปรไฟล์ ณิชาภัทร">
-                </div>
-                <p>
-                    ณิชาภัทร ยอดมงคล
-                </p>
-
-                <small>
-                    nice to meet you!
-                </small>
-
-            </div>
-
-            <span class="sticker star">
-                ✦
-            </span>
-
-            <span class="sticker flower">
-                ✿
-            </span>
-
-        </div>
-
-    </section>
-
-
-    <!-- INTRO -->
-    <section class="intro section">
-
-        <div class="section-title">
-
-            <span>✿</span>
-
-            <h2>
-                Welcome to my portfolio
-            </h2>
-
-            <span>✿</span>
-
-        </div>
-
-        <p>
-
-            ที่นี่คือพื้นที่เล็ก ๆ สำหรับรวบรวมตัวตน
-            ความสนใจ และผลงานที่ดิฉันตั้งใจสร้างขึ้นมา
-
-        </p>
-
-    </section>
-
-
-    <!-- PROJECTS -->
-    <section class="featured section">
-
-        <div class="section-heading">
-
-            <div>
-
-                <p class="eyebrow">
-                    A FEW OF MY WORKS
-                </p>
-
-                <h2>
-                    My Works ♡
-                </h2>
-
-            </div>
-
-            <a href="portfolio.html" class="text-link">
-                ดูทั้งหมด →
-            </a>
-
-        </div>
-
-
-        <div class="project-grid">
-
-
-            <!-- Project 1 -->
-<a href="project1.html" class="project-card">
-
-    <div class="project-img img-one">
-        <img src="LEAD1.jpg" alt="Sweet Café Website">
-    </div>
-
-    <div class="project-info">
-        <span>Sport Day2024</span>
-
-        <h3>
-            TOP 2
-        </h3>
-
-        <p>
-            เข้าร่วมงานกีฬาสีโดยเป็นผู้นำเชียร์ ได้อับดับที่2
-        </p>
-    </div>
-
-</a>
-
-
-<!-- Project 2 -->
-<a href="project2.html" class="project-card">
-
-    <div class="project-img img-two">
-        <img src="LEAD2.jpg" alt="Study Planner">
-    </div>
-
-    <div class="project-info">
-        <span>Sport Day2025</span>
-
-        <h3>
-            TOP 2
-        </h3>
-
-        <p>
-            เข้าร่วมงานกีฬาสีโดยเป็นผู้นำเชียร์ ได้อับดับที่2
-        </p>
-    </div>
-
-</a>
-
-
-<!-- Project 3 -->
-<a href="project3.html" class="project-card">
-
-    <div class="project-img img-three">
-        <img src="profile.jpg" alt="Little Flower Shop">
-    </div>
-
-    <div class="project-info">
-        <span>Cover Dance</span>
-
-        <h3>
-            TOP 3
-        </h3>
-
-        <p>
-            ได้เข้าร่วมแข่งCover Danceและได้อับดับที่ 3
-        </p>
-    </div>
-
-</a>
-
-        </div>
-
-    </section>
-
-
-    <!-- QUOTE -->
-    <section class="quote section">
-
-        <div class="quote-box">
-
-            <div class="quote-flower">
-                🌷
-            </div>
-
-            <div>
+                <h3>
+                    Sweet Café Website
+                </h3>
 
                 <p>
-                    “Every little idea can become something beautiful.”
+                    เว็บไซต์คาเฟ่สไตล์พาสเทล
                 </p>
-
-                <small>
-                    — my portfolio diary ♡
-                </small>
 
             </div>
 
-        </div>
-
-    </section>
+        </a>
 
 
-    <!-- FOOTER -->
-    <footer>
 
-        <p>
-            Made with ♡ by ณิชาภัทร ยอดมงคล
-        </p>
+        <!-- Project 2 -->
 
-        <div>
+        <a href="project2.html"
+            class="project-card portfolio-item"
+            data-category="ui">
 
-            <a href="index.html">
-                Home
-            </a>
+            <div class="project-img img-two">
 
-            ·
+                <img src="images/project2.jpg"
+                    alt="Study Planner">
 
-            <a href="contact.html">
-                Contact
-            </a>
+            </div>
 
-        </div>
+            <div class="project-info">
 
-    </footer>
+                <span>
+                    UI / UX
+                </span>
+
+                <h3>
+                    Study Planner
+                </h3>
+
+                <p>
+                    แอปวางแผนการเรียน
+                </p>
+
+            </div>
+
+        </a>
 
 
-    <script src="js/script.js"></script>
+
+        <!-- Project 3 -->
+
+        <a href="project3.html"
+            class="project-card portfolio-item"
+            data-category="brand">
+
+            <div class="project-img img-three">
+
+                <img src="images/project3.jpg"
+                    alt="Little Flower Shop">
+
+            </div>
+
+            <div class="project-info">
+
+                <span>
+                    Branding
+                </span>
+
+                <h3>
+                    Little Flower Shop
+                </h3>
+
+                <p>
+                    แบรนด์ร้านดอกไม้
+                </p>
+
+            </div>
+
+        </a>
+
+
+
+        <!-- Project 4 -->
+
+        <a href="project1.html"
+            class="project-card portfolio-item"
+            data-category="web">
+
+            <div class="project-img img-four">
+
+                <img src="images/project4.jpg"
+                    alt="Mini Fashion">
+
+            </div>
+
+            <div class="project-info">
+
+                <span>
+                    Web Design
+                </span>
+
+                <h3>
+                    Mini Fashion
+                </h3>
+
+                <p>
+                    เว็บร้านแฟชั่นน่ารัก ๆ
+                </p>
+
+            </div>
+
+        </a>
+
+
+
+        <!-- Project 5 -->
+
+        <a href="project2.html"
+            class="project-card portfolio-item"
+            data-category="ui">
+
+            <div class="project-img img-five">
+
+                <img src="images/project5.jpg"
+                    alt="Daily Mood">
+
+            </div>
+
+            <div class="project-info">
+
+                <span>
+                    UI / UX
+                </span>
+
+                <h3>
+                    Daily Mood
+                </h3>
+
+                <p>
+                    แอปบันทึกอารมณ์
+                </p>
+
+            </div>
+
+        </a>
+
+
+
+        <!-- Project 6 -->
+
+        <a href="project3.html"
+            class="project-card portfolio-item"
+            data-category="brand">
+
+            <div class="project-img img-six">
+
+                <img src="images/project6.jpg"
+                    alt="Sweet Bakery">
+
+            </div>
+
+            <div class="project-info">
+
+                <span>
+                    Branding
+                </span>
+
+                <h3>
+                    Sweet Bakery
+                </h3>
+
+                <p>
+                    ภาพลักษณ์ร้านขนม
+                </p>
+
+            </div>
+
+        </a>
+
+
+    </div>
+
+</section>
+
+</main>
+
+
+
+<footer>
+
+    <p>
+        Made with ♡ by ณิชาภัทร
+    </p>
+
+    <div>
+
+        <a href="index.html">
+            Home
+        </a>
+
+        ·
+
+        <a href="contact.html">
+            Contact
+        </a>
+
+    </div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
 
 </body>
 
