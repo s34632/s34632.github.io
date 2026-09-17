@@ -158,6 +158,30 @@ a {
 }
 
 
+/* SALE TEXT */
+
+.hero::before {
+    content: "CAKE";
+
+    position: absolute;
+
+    top: 15px;
+    left: 0;
+    right: 0;
+
+    text-align: center;
+
+    font-family: Georgia, serif;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    font-style: italic;
+
+    letter-spacing: -1px;
+}
+
 /* WINDOWS BAR */
 
 .window-bar {
