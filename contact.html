@@ -1,71 +1,131 @@
-```html
-<!DOCTYPE html>
-<html lang="th">
+```css
+/* ================= CONTACT PAGE ================= */
 
-<head>
+.contact-layout {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px 80px;
+    box-sizing: border-box;
+}
 
-    <meta charset="UTF-8">
-
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-
-    <title>Contact Me ♡</title>
-
-    <link rel="preconnect"
-        href="https://fonts.googleapis.com">
-
-    <link rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Mitr:wght@300;400;500&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet"
-        href="css/style.css">
-
-</head>
+.contact-card {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
 
 
-<body>
+/* ไอคอนด้านบน */
+
+.contact-icon {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
 
 
-<header class="navbar">
+/* ข้อความ */
 
-    <a href="index.html"
-        class="logo">
+.contact-card h2 {
+    margin-bottom: 10px;
+}
 
-        Mini<span>Portfolio</span> ♡
-
-    </a>
-
-
-    <button class="menu-toggle">
-        ☰
-    </button>
+.contact-card > p {
+    margin-bottom: 25px;
+}
 
 
-    <nav class="nav-links">
+/* ช่องทางการติดต่อ */
 
-        <a href="index.html">
-            Home
-        </a>
+.contact-link {
+    width: 100%;
+    min-height: 70px;
+    margin: 12px 0;
 
-        <a href="about.html">
-            About
-        </a>
+    display: flex;
+    align-items: center;
 
-        <a href="portfolio.html">
-            Portfolio
-        </a>
+    padding: 15px 20px;
+    box-sizing: border-box;
 
-        <a href="contact.html"
-            class="active">
+    text-decoration: none;
 
-            Contact
+    border-radius: 18px;
 
-        </a>
+    transition: transform 0.2s ease,
+                box-shadow 0.2s ease;
+}
 
-    <
+
+/* ไอคอน */
+
+.contact-link-icon {
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    font-size: 24px;
+}
+
+
+/* ข้อความในแต่ละช่อง */
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+
+    margin-left: 15px;
+}
+
+.contact-text strong {
+    font-size: 18px;
+}
+
+.contact-text small {
+    margin-top: 3px;
+    font-size: 14px;
+    word-break: break-word;
+}
+
+
+/* Hover */
+
+.contact-link:hover {
+    transform: translateY(-3px);
+}
+
+
+/* มือถือ */
+
+@media (max-width: 600px) {
+
+    .contact-card {
+        padding: 25px 18px;
+    }
+
+    .contact-link {
+        min-height: 65px;
+        padding: 12px 15px;
+    }
+
+    .contact-text strong {
+        font-size: 16px;
+    }
+
+    .contact-text small {
+        font-size: 13px;
+    }
+
+}
 ```
-
